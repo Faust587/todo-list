@@ -36,6 +36,7 @@ export const useForm = () => {
     });
   };
 
+  // TODO: add validation
   const handleTimeChange = (value: string) => {
     setTime(prev => {
       if (value.length < prev.length) {
@@ -49,6 +50,7 @@ export const useForm = () => {
     });
   };
 
+  // TODO: add validation
   const handleSaveTask = () => {
     if (!name.length || !category) {
       return;
