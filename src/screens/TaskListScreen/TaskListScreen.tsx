@@ -28,6 +28,7 @@ export const TaskListScreen: FC = () => {
   /**
    * Render
    */
+  // TODO: move list to separate component
   return (
     <DefaultScreenLayout>
       <StyledImageBackground
